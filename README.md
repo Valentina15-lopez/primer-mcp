@@ -35,3 +35,33 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request p
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT.
+
+## Para Empezar
+
+### Introducción
+Puedes consultar la introducción al protocolo Model Context Protocol (MCP) en el siguiente enlace:
+[Introducción a MCP](https://modelcontextprotocol.io/introduction)
+
+### SDK
+Para este proyecto, se eligió el SDK de TypeScript. Puedes encontrar más información sobre este SDK aquí:
+[TypeScript SDK para MCP](https://github.com/modelcontextprotocol/typescript-sdk)
+
+### Configuración por Sistema Operativo
+- **Para Mac**: Claude en escritorio.
+- **Para Ubuntu**: Visual.
+- También se puede usar en Cursor.
+
+### Comandos Útiles
+- `pwd`: Muestra la ruta del archivo local.
+- `tsx`: Ejecuta un archivo TypeScript sin necesidad de un compilador.
+
+### Inspector
+Para ejecutar el inspector y un archivo TypeScript, puedes usar los siguientes comandos:
+```
+npx -y @modelcontextprotocol/inspector
+npx -y tsx main.ts
+```
+
+### Servidores
+Consulta más información sobre servidores MCP en el siguiente enlace:
+[Servidores MCP](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
